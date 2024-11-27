@@ -12,16 +12,13 @@
     <header>
         <nav>
             <button>About me</button>
-            <button>Expériences</button>
-            <button>Projets</button>
-            <button>Me contacter</button>
+            <a href="#projet"><button>Projets</button></a>
         </nav>
     </header>
     <main>
         <section class="introduction">
-            <div class="status">Disponible ✦</div>
-            <h1>TITRE (DEV)</h1>
-            <p class="subtitle">Petit blabla</p>
+            <h1>Sofian Boubahri</h1>
+            <p class="subtitle">Étudiant à l'école La Plateforme, passionné par le développement web et la cybersécurité.</p>
             <div class="actions">
                 <button class="button">Voir mes projets →</button>
                 <button class="button">Contactez moi ✉</button>
@@ -30,25 +27,63 @@
         <aside>
             <img src="./image.jpg" alt="Description de l'image" class="image">
         </aside>
-        
     </main>
-    <footer>
-        <div class="skills">
-            <div class="category">
-                <h3>Langages</h3>
-                <span>HTML5</span>
+
+    <section class="projets" id="projet">
+        <h2>PROJETS</h2>
+        <div class="cards">
+            <div class="card">
+                <div class="card-header">
+                    <img src="error.png" alt="Image de Error404">
+                </div>
+                <div class="card-body">
+                    <h3>Error404</h3>
+                    <p>Site Error 404</p>
+                    <div class="tags">
+                        <span class="tag">HTML/CSS</span>
+                        <a href="https://github.com/sofian-boubahri/error-404" class="code-link">
+                            <img src="github.png" alt="GitHub Icon">
+                            Code
+                        </a>
+                    </div>
+                </div>
             </div>
-            <div class="category">
-                <h3>Frameworks</h3>
-                <span>React</span>
+            <div class="card">
+                <div class="card-header">
+                    <img src="./daftpunk.png" alt="Image de Daft Punk">
+                </div>
+                <div class="card-body">
+                    <h3>Daft Punk</h3>
+                    <p>Fansite pour le groupe Daft Punk dans le cadre d'un projet pour l'école La Plateforme</p>
+                    <div class="tags">
+                        <span class="tag">HTML/CSS</span>
+                        <a href="https://github.com/sofian-boubahri/daft-punk" class="code-link">
+                            <img src="github.png" alt="GitHub Icon">
+                            Code
+                        </a>
+                    </div>
+                </div>
             </div>
-            <div class="category">
-                <h3>Outils</h3>
-                <span>GitHub</span>
+            <div class="card">
+                <div class="card-header">
+                    <img src="./vmware.jpg" alt="Image de VMware Setup">
+                </div>
+                <div class="card-body">
+                    <h3>VMware Setup</h3>
+                    <p>Ce projet consiste à la configuration d'une machine virtuelle avec VMware pour créer un environnement de travail dédié. (en cous)</p>
+                    <div class="tags">
+                        <span class="tag">Machine Virtuelle</span>
+                        <a href="#" class="code-link">
+                            <img src="github.png" alt="GitHub Icon">
+                            Code
+                        </a>
+                    </div>
+                </div>
             </div>
         </div>
-        <button class="download-cv">Télécharger mon CV ⬇</button>
-    </footer>
+    </section>
+    
+    
 </body>
 
 </html>
